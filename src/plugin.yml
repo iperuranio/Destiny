@@ -1,0 +1,9 @@
+name: Destiny
+version: 1.0
+description: LuckyBlock plugin
+author: claxon007
+main: Destiny.Main
+
+commands:
+  destiny:
+    usage: /<command>

@@ -1,0 +1,66 @@
+lucky:
+  '1':
+    #La probability va inserita da 0.00 a 100.0
+    probability: 9.19
+    #Action puo' assumere diversi valori:
+    #COMMAND se si vuole eseguire un comando, #ITEM se si vuole givvare un item, #MONEY se si vuole givvare dei money.
+    action: 'COMMAND'
+    #Il comando in questione (%player% per indicare il player).
+    command: 'fly %player% on'
+    #Il messaggio che si vuole mandare al giocatore che ha rotto il luckyblock (%player% per indicare il player, se non si vuole inserire nessun messaggio inserisci NULL)
+    message: 'Dio &asuino!'
+    #Il messaggio che si vuole mandare a tutti i giocatori (%player% per indicare il player, se non si vuole inserire nessun messaggio inserisci NULL)
+    broadcast: "Izi Pizi"
+  '2':
+    probability: 35.4
+    action: 'COMMAND'
+    command: 'fly %player% off'
+    message: 'No no &ccolorato&7!'
+    broadcast: "Gesu' cristo"
+      
+wet_lucky:
+  '1':
+    probability: 3.4
+    action: 'COMMAND'
+    command: 'fly %player% on'
+    message: 'AHHAHAHAHHAHAHAHAHAHHAH'
+    broadcast: "DIO PORCOOOOOOOOOOOO"
+  '2':
+    probability: 23.2
+    action: 'ITEM'
+    #La stringa che va inserita nel seguente campo deve essere un item generato nella sezione "items" e dichiarato nella sezione "list_items". (Attento alle maiuscole: se salvi un item come CrIsTo, lo potrai usare solo se digiti CrIsTo
+    item: Puttana
+    message: 'No no &ccolof&&0ase&9arato&7!'
+    broadcast: "Ha!w"
+  '3':
+    probability: 9.2
+    action: 'MONEY'
+    #Non inserire una stringa in amount, grazie (E neanche le virgole o i punti tipo 5.000 o 5,000).
+    amount: 3439934
+    message: '&aMONEYYYYYYYYYYYY'
+    broadcast: "&9wekhjkjwekjhwejhk"
+
+#Registra gli items
+items:
+  #Nome con cui si vuole salvare l'item (vale solo per il config)
+  'Puttana':
+    #Nome che avra' l'item su mc
+    name: 'Mad&2onna'
+    #Tipo dell'item (https://hastebin.com/iqatipinon.py)
+    item: 'BOW'
+    #Quantita' dell'item (1 - 64)
+    quantity: 1
+    #Lore dell'item (Ogni rigo significa che va a capo)
+    lore:
+    - "Questo e' &aun item fatto"
+    - "dai &9piu' grandi froci."
+    #Sintassi: "<ID ENCHANT>;<POTENZA (0 - n)>" (Parte da 0: Speed 1 = Valore 0) (https://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/365638-enchantment-id-list)
+    enchants:
+    - '18;10'
+
+#Qui bisogna inserire il nome con cui si e' inserito l'item nella sezione precedente (in questo caso, Puttana. Ricordati che è case sensitive: vedi riga 31)
+list_items:
+  - 'Puttana'
+
+#Non toccare c:
+NON_TOCCARE: false
