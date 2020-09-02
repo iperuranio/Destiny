@@ -24,7 +24,7 @@ wet_lucky:
     action: 'COMMAND'
     command: 'fly %player% on'
     message: 'AHHAHAHAHHAHAHAHAHAHHAH'
-    broadcast: "DIO PORCOOOOOOOOOOOO"
+    broadcast: "IEEE"
   '2':
     probability: 23.2
     action: 'ITEM'

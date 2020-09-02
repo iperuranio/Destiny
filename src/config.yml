@@ -24,7 +24,7 @@ wet_lucky:
     action: 'COMMAND'
     command: 'fly %player% on'
     message: 'AHHAHAHAHHAHAHAHAHAHHAH'
-    broadcast: "DIO PORCOOOOOOOOOOOO"
+    broadcast: "IEEE"
   '2':
     probability: 23.2
     action: 'ITEM'
@@ -43,7 +43,7 @@ wet_lucky:
 #Registra gli items
 items:
   #Nome con cui si vuole salvare l'item (vale solo per il config)
-  'Puttana':
+  'Item1':
     #Nome che avra' l'item su mc
     name: 'Mad&2onna'
     #Tipo dell'item (https://hastebin.com/iqatipinon.py)
@@ -53,14 +53,14 @@ items:
     #Lore dell'item (Ogni rigo significa che va a capo)
     lore:
     - "Questo e' &aun item fatto"
-    - "dai &9piu' grandi froci."
+    - "dai &9piu' grandi costruttori."
     #Sintassi: "<ID ENCHANT>;<POTENZA (0 - n)>" (Parte da 0: Speed 1 = Valore 0) (https://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/365638-enchantment-id-list)
     enchants:
     - '18;10'
 
-#Qui bisogna inserire il nome con cui si e' inserito l'item nella sezione precedente (in questo caso, Puttana. Ricordati che è case sensitive: vedi riga 31)
+#Qui bisogna inserire il nome con cui si e' inserito l'item nella sezione precedente (in questo caso, Item1. Ricordati che è case sensitive: vedi riga 31)
 list_items:
-  - 'Puttana'
+  - 'Item1'
 
 #Non toccare c:
 NON_TOCCARE: false

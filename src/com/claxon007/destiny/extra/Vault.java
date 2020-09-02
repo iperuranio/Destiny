@@ -1,9 +1,8 @@
-package Extra;
+package com.claxon007.destiny.extra;
 
 import org.bukkit.entity.Player;
 
-public class Vault
-{
+public class Vault {
 //	public static EconomyResponse r = null;
 //	private static Economy econ = null;
 //	private static Chat chat = null;
@@ -43,8 +42,7 @@ public class Vault
 //		return econ != null;
 //	}
 //	
-	public static void addMoney(Player p, double how)
-	{
-		LittleHelp.command("eco give "+p.getName()+" "+how);
+	public static void addMoney(Player p, double how) {
+		LittleHelp.command("eco give " + p.getName() + " " + how);
 	}
 }
